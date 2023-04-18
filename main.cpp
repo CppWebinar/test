@@ -1,6 +1,12 @@
 // git test source
 #include <iostream>
 
+void show() {
+    std::cout << "Hello, world!\n";
+}
+
 int main() {
-    std::cout << "Hello, world\n";
+    // Call show function
+    show();
+    return 0;
 }
